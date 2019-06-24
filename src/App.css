@@ -1,0 +1,157 @@
+html,
+body {
+  background-position: static;
+  overflow-x: hidden;
+}
+.card {
+  max-width: 400;
+  border: 2px solid #403434;
+  margin: 5px;
+  background-color: tan;
+  color: tan;
+}
+.shop-card {
+  margin: 10px 50px;
+}
+
+.media {
+  height: 185px;
+  width: 100%;
+}
+.shopping-card {
+  max-width: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 45px;
+  border: 1px solid #dcdcdc;
+}
+.shopping-card:hover {
+  box-shadow: 0 7px 5px 3px #a9a9a9;
+  transition: 100ms ease-in-out;
+  border: 4px solid dimgray;
+  border-radius: 3px;
+}
+.main-div {
+  margin-left: 45px;
+  margin-top: 100px;
+}
+
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.gridList {
+  width: 100%;
+  height: 100%;
+}
+.cardMobile {
+  max-width: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+.product-total {
+  margin-left: 45px;
+  margin-top: 20px;
+  color: grey;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .product-total {
+    margin-left: 45px;
+    color: grey;
+  }
+  .media {
+    height: 135px;
+    width: 100%;
+  }
+  .main-div {
+    margin-left: 5px;
+    margin-top: 80px;
+  }
+
+  .shop-card {
+    margin: 10px 10px;
+  }
+  .Book-Para {
+    color: #00539c;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: revert;
+  }
+
+  .card {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 800px) {
+  .product-total {
+    margin-left: 65px;
+    color: grey;
+  }
+  .main-div {
+    margin-left: 20px;
+  }
+  .shopping-card {
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    border: 1px solid grey;
+  }
+  .shopping-card:hover {
+    box-shadow: 0 15px 5px -5px grey;
+    border: 5px solid grey;
+  }
+  .media {
+    height: 160px;
+    width: 100%;
+  }
+
+  .shop-card {
+    margin: 10px 50px;
+  }
+
+  .card {
+    display: none;
+  }
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.material-icons {
+  font-size: 2.4em;
+  cursor: pointer;
+}
+.card {
+  width: 300px;
+}
+.card .card-image .card-title {
+  color: black;
+  font-weight: 400;
+}
+.cart {
+  margin-top: 40px;
+}
+.collection .collection-item {
+  display: flex;
+}
+.collection-item.avatar .title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ee6e73;
+  display: block;
+  margin-bottom: 20px;
+}
+.collection .collection-item img {
+  width: 150px;
+  margin-right: 25px;
+}
+.item-desc {
+  align-self: center;
+}
